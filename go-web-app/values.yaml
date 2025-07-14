@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: go-web-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 8080
+
+resources: {}
