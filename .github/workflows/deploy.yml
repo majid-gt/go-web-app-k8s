@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-username/go-web-app:latest
+          tags: dockermajid/go-web-app:latest
